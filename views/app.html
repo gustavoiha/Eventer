@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Eventer</title>
+    <script src="https://npmcdn.com/vue/dist/vue.js"></script>
+    <link type="text/css" rel="stylesheet" href="/css/foundation.min.css">
+    <link type="text/css" rel="stylesheet" href="/css/app.css">
+</head>
+<body>
+<div id="app">
+
+  <input type="text" id="name-input" v-model="user.name">
+  <input type="text" id="email-input" v-model="user.email">
+  <input type="text" id="email-confirm-input" v-model="user.emailConfirm">
+
+  <button class="small-6 column" v-on:click="submit"> Submit </button>
+
+  <section id="main-section">
+
+  </section>
+
+  <section id="details-section">
+
+  </section>
+
+  <section id="bottom-section">
+
+  </section>
+
+</div>
+<script type="text/javascript" src="/app.js"></script>
+</body>
+</html>
