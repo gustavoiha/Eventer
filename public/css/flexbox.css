@@ -15,7 +15,7 @@
   box-sizing: border-box;
   min-height: 1px;
 }
-@media screen and (max-width: 767px) {
+(max-width: 800px) {
   .cols {
     display: -webkit-box;
     display: -moz-box;
